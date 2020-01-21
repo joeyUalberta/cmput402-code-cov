@@ -31,5 +31,5 @@ jobs:
     - name: Generate codecov report
       with:
         token: ${{ secrets.codecov_token }}
-        run: echo "{{ token }} "
+      run: echo "{{ token }} "
     #
