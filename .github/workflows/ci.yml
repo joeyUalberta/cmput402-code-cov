@@ -28,3 +28,8 @@ jobs:
 
     # TODO: Add Codecov (make sure to set up on codecov.io as well) 
     #       for test coverage reports
+    - name: Generate codecov report
+      with:
+        token: ${{ secrets.codecov_token }}
+        run: echo "{{ token }} "
+    #
