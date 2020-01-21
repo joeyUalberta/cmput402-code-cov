@@ -40,6 +40,7 @@ run {
 // TODO: Set jacoco version to be 0.8.5
 jacoco {
     toolVersion = "0.8.5"
+    reportsDir = file("reports/jacoco")
 }
 // TODO: Enable jacoco test report in xml format
 jacocoTestReport {
